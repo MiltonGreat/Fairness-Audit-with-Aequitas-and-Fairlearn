@@ -34,6 +34,10 @@ I evaluate three models (Logistic Regression, Random Forest, Tuned Random Forest
 2. Apply EqualizedOdds mitigation to reduce error rate disparities.
 3. Monitor fairness quarterly with new data.
 
+### Conclusion
+
+All models failed in Equalized Odds (differences > 0.3), revealing disparities in error rates (False Positives & False Negatives). This suggests that while approvals were fair, mistakes in predictions disproportionately affected one gender.
+
 ### Source
 
 [Loan Application Data from Kaggle](https://www.kaggle.com/datasets/vipin20/loan-application-data)
